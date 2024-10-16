@@ -17,31 +17,5 @@
 			"item": "minecraft:emerald",
 			"count": 10
 		}
-	},
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "example:test_totem"
-		},
-		"tags": ["crafting_table"],
-		"pattern": [
-			" D ",
-			"DED",
-			" S "
-		],
-		"key": {
-			"D": {
-				"item": "minecraft:diamond"
-			},
-			"E": {
-				"item": "minecraft:emerald"
-			},
-			"S": {
-				"item": "minecraft:stick"
-			}
-		},
-		"result": {
-			"item": "minecraft:totem_of_undying",
-			"count": 1
-		}
 	}
 }
