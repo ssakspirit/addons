@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "example:iron_gold_to_emeralds"
+		},
+		"tags": ["crafting_table"],
+		"ingredients": [
+			{
+				"item": "minecraft:iron_ingot"
+			},
+			{
+				"item": "minecraft:gold_ingot"
+			}
+		],
+		"result": {
+			"item": "minecraft:emerald",
+			"count": 10
+		}
+	},
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "example:test_totem"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [
+			" D ",
+			"DED",
+			" S "
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"E": {
+				"item": "minecraft:emerald"
+			},
+			"S": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "minecraft:totem_of_undying",
+			"count": 1
+		}
+	}
+}
